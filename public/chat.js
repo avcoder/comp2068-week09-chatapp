@@ -1,5 +1,5 @@
 // const socket = io.connect('http://localhost:3000');
-const socket = io.connect('https://chat2068.herokuapp.com/');
+const socket = io.connect(`${window.location.hostname}`);
 
 /* buttons and inputs */
 const chatroom = document.getElementById('chatroom');
